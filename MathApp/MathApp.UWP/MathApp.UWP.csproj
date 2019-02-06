@@ -144,9 +144,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\UIReferenceImplementation\MyScript.InteractiveInk.UIReferenceImplementation.Uwp-VS2017.csproj">
+      <Project>{667892F3-1761-4EA9-BDFA-71944C768BAD}</Project>
+      <Name>MyScript.InteractiveInk.UIReferenceImplementation.Uwp-VS2017</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MathApp\MathApp.csproj">
       <Project>{20DD335C-6824-4D1F-8FFC-F82D734F0F84}</Project>
       <Name>MathApp</Name>

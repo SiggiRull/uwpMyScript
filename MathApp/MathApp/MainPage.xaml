@@ -9,6 +9,9 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+
+        <!--<win:ToggleSwitch Header="Enable Entry?" OffContent="No" OnContent="Yes" IsOn="{Binding IsSwitchOn, Mode=TwoWay, UpdateSourceEventName=Toggled}" />
+    -->
     </StackLayout>
 
 </ContentPage>
